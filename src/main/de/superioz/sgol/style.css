@@ -1,0 +1,61 @@
+.root {
+    -fx-background-color: whitesmoke;
+}
+
+.grid {
+    -fx-border-color: cadetblue;
+    -fx-border-width: 0.1;
+}
+
+.deadCell {
+    -fx-background-color: whitesmoke;
+}
+
+.youngCell {
+    -fx-background-color: yellow;
+}
+
+.elderCell {
+    -fx-background-color: orange;
+}
+
+.oldCell {
+    -fx-background-color: red;
+}
+
+.gamenameHeader {
+    -fx-text-fill: steelblue;
+    -fx-font-family: Orbitron;
+    -fx-font-size: 18pt;
+    -fx-font-weight: bold;
+}
+
+.controls {
+    -fx-text-fill: cadetblue;
+    -fx-font-family: Orbitron;
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+}
+
+.presstoStart {
+    -fx-text-fill: steelblue;
+    -fx-font-family: Orbitron;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+}
+
+/* CSS Styling from "ingame" */
+.stats {
+    -fx-text-fill: steelblue;
+    -fx-font-family: Orbitron;
+    -fx-font-size: 10pt;
+    -fx-font-weight: 900;
+}
+
+/* CSS Styling from others */
+.gamePaused {
+    -fx-text-fill: steelblue;
+    -fx-font-family: Orbitron;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+}

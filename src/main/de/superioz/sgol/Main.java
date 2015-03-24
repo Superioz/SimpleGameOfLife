@@ -13,11 +13,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import main.de.superioz.sgol.util.LabelManager;
 
-import java.util.Random;
-
 /**
- * Class created on 19.03.2015
- *
  * Game made with the idea of "Conway's Game of Life"
  * Inspired by hameister 'http://www.hameister.org'
  */
@@ -39,7 +35,6 @@ public class Main extends Application {
 
     public final Timeline animation = new Timeline();
     public CellWorld cellWorld;
-    public static Random random = new Random();
 
     @Override
     public void start(Stage s) throws Exception{
@@ -50,7 +45,7 @@ public class Main extends Application {
         // Pane
         Pane p = new Pane();
         Scene sc = new Scene(p, FIELD_WIDTH, FIELD_HEIGHT);
-        sc.getStylesheets().add(this.getClass().getResource("style.css").toExternalForm());
+        sc.getStylesheets().add(this.getClass().getResource("style/style.css").toExternalForm());
 
         // Cellworld
         cellWorld = new CellWorld(FIELD_WIDTH/CELL_SIZE, FIELD_HEIGHT/CELL_SIZE);

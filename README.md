@@ -6,7 +6,7 @@ A "remake" of Conway's Game of Life with additional rules. Pretty simple to play
 3. Every cell with 3 or 2 living neighbours stays alive.
 
 ### Additional rules:
-1. Every cell ages with every day. The cell dies, if it's too old.
-2. When it's day 180 a new year begin and new cells come to "celebrate the new year"
+1. Every cell ages with every day. The cell dies, when it's too old.
+2. At day 180 a new year begins and new cells come to "celebrate the new year"
 
 >For more informations go to http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
